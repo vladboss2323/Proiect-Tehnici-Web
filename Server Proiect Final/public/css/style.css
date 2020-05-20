@@ -1,0 +1,158 @@
+body{
+  font: 15px/1.5 Arial,Helvetica,sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+  background-color: white;
+}
+
+
+h1 {
+    color: white;
+    text-align: center;
+	font-size: 50px;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+
+.container{
+  width: 80%;
+  margin:auto;
+  overflow: hidden;
+  border:rgb(233,0,82);
+}
+
+
+#showcase{
+  min-height: 1000px;
+  background: url('../img/showcase.jpg') no-repeat ;
+  background-size: auto;
+  text-align: center;
+}
+
+#showcase h2{
+  margin-top: 0px;
+  font-size: 100px;
+  margin-bottom: 10px;
+  color: rgb(56,0,60);
+}
+
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+  color rgb(56,0,60);
+}
+
+.box img{
+  width:90px;
+}
+
+.box {
+    position:relative;
+    width: 100%;
+    max-width: 400px;
+    border: rgb(233,0,82);
+    color: rgb(56,0,60);
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+.box .btn {
+    position: absolute;
+    top:38%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(56,0,60) ;
+    opacity:;
+    color: white;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.box .btn:hover {
+    background-color: rgb(56,0,60);
+    color: white;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+	font-size: 25px;
+	background-color:rgb(233,0,82);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(56,0,60);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: rgb(56,0,60);
+}
+
+.tabel{
+   text-align: center;
+   color : white;
+   margin-left: 200px;
+}
+
+.echipe img{
+  width: 25px;
+  height: 25px;
+  no-repeat;
+}
+
+.fundal{
+margin: auto;
+width:50%;
+border: 5px solid rgb(56,0,60);
+border-top: 1px solid rgb(56,0,60);
+border-collapse: collapse;
+}
+
+.clasament img{
+  width: 25px;
+  height: 25px;
+  no-repeat;
+}
